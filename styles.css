@@ -19,10 +19,14 @@ body {
 }
 
 .banner {
-    width: 100%;
+    width: 100%; /* Ensure the banner spans the full width */
     height: auto;
     border-radius: 10px 10px 0 0;
     margin-bottom: 20px;
+}
+
+.content {
+    padding: 0 20px; /* Add padding around content */
 }
 
 h1 {
@@ -56,10 +60,5 @@ p {
 
 .discord-widget {
     text-align: center;
-    margin-top: 40px; /* Adjust margin as needed */
-    display: block; /* Ensures the iframe is displayed as a block-level element */
-    width: 100%; /* Full width of the container */
-    max-width: 400px; /* Adjust maximum width as needed */
-    margin-left: auto; /* Center the iframe horizontally */
-    margin-right: auto;
+    margin-top: 20px; /* Adjust margin as needed */
 }
