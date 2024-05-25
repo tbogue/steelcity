@@ -21,12 +21,13 @@ body {
 .banner {
     width: 100%; /* Ensure the banner spans the full width */
     height: auto;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
 
 .content {
-    padding: 0 20px; /* Add padding around content */
+    max-width: 600px; /* Limit the width of the content */
+    margin: 0 auto; /* Center align content */
 }
 
 h1 {
@@ -61,12 +62,4 @@ p {
 .discord-widget {
     text-align: center;
     margin-top: 20px; /* Adjust margin as needed */
-}
-
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column; /* Stack containers vertically */
-        align-items: center; /* Center items vertically */
-    }
 }
