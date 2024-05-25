@@ -56,4 +56,5 @@ p {
 
 .discord-widget {
     text-align: center;
+    margin-top: 20px; /* Adjust margin as needed */
 }
