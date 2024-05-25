@@ -62,3 +62,11 @@ p {
     text-align: center;
     margin-top: 20px; /* Adjust margin as needed */
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack containers vertically */
+        align-items: center; /* Center items vertically */
+    }
+}
