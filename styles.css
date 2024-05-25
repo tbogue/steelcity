@@ -15,6 +15,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
 }
 
 .banner {
@@ -51,4 +52,8 @@ p {
 
 .discord-button:hover {
     background-color: #4752c4;
+}
+
+.discord-widget {
+    text-align: center;
 }
