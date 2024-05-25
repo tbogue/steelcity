@@ -28,6 +28,11 @@ h1 {
     margin-bottom: 20px;
 }
 
+.intro-text {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
 p {
     margin-bottom: 20px;
     font-size: 18px;
@@ -47,3 +52,4 @@ p {
 .discord-button:hover {
     background-color: #4752c4;
 }
+
