@@ -5,17 +5,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh; /* Replaced height: 100vh to prevent mobile cutoff */
     margin: 0;
+    padding: 20px; /* Adds breathing room around the edges */
+    box-sizing: border-box;
 }
 
 .container {
+    width: 100%;
+    max-width: 600px; /* Keeps it neat on desktop, fluid on mobile */
     text-align: center;
     background-color: #2c2f33;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
+    box-sizing: border-box;
 }
 
 .banner {
@@ -26,22 +30,23 @@ body {
 }
 
 .content {
-    max-width: 600px; /* Limit the width of the content */
+    width: 100%; /* Limit the width of the content */
     margin: 0 auto; /* Center align content */
 }
 
 h1 {
+    font-size: 24px;
     margin-bottom: 20px;
 }
 
 .intro-text {
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 p {
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .discord-button {
@@ -62,4 +67,12 @@ p {
 .discord-widget {
     text-align: center;
     margin-top: 20px; /* Adjust margin as needed */
+}
+
+/* Make the Discord iframe responsive on smaller screens */
+.discord-widget iframe {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    border: none;
 }
